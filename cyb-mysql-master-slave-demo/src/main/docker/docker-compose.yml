@@ -1,0 +1,6 @@
+version: '3'
+services:
+  cyb-mysql-demo:
+    image: hustcyb/cyb-mysql-master-slave-demo:0.0.1-SNAPSHOT
+    ports:
+      - "8080:8080"
